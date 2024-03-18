@@ -1,0 +1,234 @@
+From c20ee6e3fa79708795e9c669fc6261d9f02b2a24 Mon Sep 17 00:00:00 2001
+From: Achraf Bannour <bannour.achraf@gmail.com>
+Date: Thu, 4 Jan 2024 14:49:11 +0100
+Subject: [PATCH] [I18N] Update translations for TBGE DZ
+
+---
+ addons/base_setup/i18n/fr.po  | 18 +++++++++---------
+ addons/fleet/i18n/fr.po       |  6 +++---
+ addons/hr/i18n/fr.po          |  2 +-
+ addons/maintenance/i18n/fr.po |  2 +-
+ odoo/addons/base/i18n/fr.po   | 18 +++++++++---------
+ 5 files changed, 23 insertions(+), 23 deletions(-)
+
+diff --git a/addons/base_setup/i18n/fr.po b/addons/base_setup/i18n/fr.po
+index 49ba03ad3856..06b5cb9d0902 100644
+--- a/addons/base_setup/i18n/fr.po
++++ b/addons/base_setup/i18n/fr.po
+@@ -95,7 +95,7 @@ msgid ""
+ "                                        <br/>"
+ msgstr ""
+ "<span class=\"o_form_label\">\n"
+-"                                            Sociétés\n"
++"                                            Communes\n"
+ "                                        </span>\n"
+ "                                        <br/>"
+ 
+@@ -204,7 +204,7 @@ msgstr "Attacher des documents Google à n'importe quel enregistrement"
+ msgid "Automatically enrich your contact base with company data"
+ msgstr ""
+ "Enrichissez automatiquement votre base de contacts avec des données sur les "
+-"entreprises"
++"communes"
+ 
+ #. module: base_setup
+ #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+@@ -213,7 +213,7 @@ msgid ""
+ "companies"
+ msgstr ""
+ "Générez automatiquement des documents de contrepartie pour les commandes / "
+-"factures entre les entreprises"
++"factures entre les communes"
+ 
+ #. module: base_setup
+ #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+@@ -251,12 +251,12 @@ msgstr "Société"
+ #. module: base_setup
+ #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__company_informations
+ msgid "Company Informations"
+-msgstr "Informations sur la société"
++msgstr "Informations sur la commune"
+ 
+ #. module: base_setup
+ #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__company_name
+ msgid "Company Name"
+-msgstr "Nom de la société"
++msgstr "Nom de la commune"
+ 
+ #. module: base_setup
+ #: model:ir.model,name:base_setup.model_res_config_settings
+@@ -428,7 +428,7 @@ msgstr "Intégrations"
+ #. module: base_setup
+ #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+ msgid "Inter-Company Transactions"
+-msgstr "Opérations inter-entreprises"
++msgstr "Opérations inter-communes"
+ 
+ #. module: base_setup
+ #. openerp-web
+@@ -470,12 +470,12 @@ msgstr "Charger les données de démonstration"
+ #. module: base_setup
+ #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+ msgid "Manage Companies"
+-msgstr "Gérer les sociétés"
++msgstr "Gérer les communes"
+ 
+ #. module: base_setup
+ #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_inter_company_rules
+ msgid "Manage Inter Company"
+-msgstr "Gérer des Intersociétés"
++msgstr "Gérer des Inter-communes"
+ 
+ #. module: base_setup
+ #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+@@ -490,7 +490,7 @@ msgstr "Gérer les utilisateurs"
+ #. module: base_setup
+ #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+ msgid "Multi-Company"
+-msgstr "Multi-sociétés"
++msgstr "Multi-communes"
+ 
+ #. module: base_setup
+ #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__group_multi_currency
+diff --git a/addons/fleet/i18n/fr.po b/addons/fleet/i18n/fr.po
+index ec446cc0e27a..06360e06bfec 100644
+--- a/addons/fleet/i18n/fr.po
++++ b/addons/fleet/i18n/fr.po
+@@ -396,7 +396,7 @@ msgstr "Paramètres de config"
+ #. module: fleet
+ #: model:ir.ui.menu,name:fleet.fleet_configuration
+ msgid "Configuration"
+-msgstr "Configuration"
++msgstr "Référentiel parc"
+ 
+ #. module: fleet
+ #: model:ir.model,name:fleet.model_res_partner
+@@ -2338,7 +2338,7 @@ msgstr "Coûts des véhicules"
+ #: model:ir.ui.menu,name:fleet.fleet_vehicle_log_fuel_menu
+ #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_search
+ msgid "Vehicles Fuel Logs"
+-msgstr "Suivi du niveau d'essence"
++msgstr "Ravitaillement"
+ 
+ #. module: fleet
+ #: model:ir.actions.act_window,name:fleet.fleet_vehicle_model_action
+@@ -2356,7 +2356,7 @@ msgstr "Relevés kilomètrique des véhicules"
+ #: model:ir.actions.act_window,name:fleet.fleet_vehicle_log_services_action
+ #: model:ir.ui.menu,name:fleet.fleet_vehicle_log_services_menu
+ msgid "Vehicles Services Logs"
+-msgstr "Suivi des interventions sur les véhicules"
++msgstr "Création et suivi des maintenances"
+ 
+ #. module: fleet
+ #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_cost_indicative_view_graph
+diff --git a/addons/hr/i18n/fr.po b/addons/hr/i18n/fr.po
+index 871da8f85af2..3e4d506009f5 100644
+--- a/addons/hr/i18n/fr.po
++++ b/addons/hr/i18n/fr.po
+@@ -707,7 +707,7 @@ msgstr "Sociétés"
+ #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
+ #: model_terms:ir.ui.view,arch_db:hr.view_job_filter
+ msgid "Company"
+-msgstr "Société"
++msgstr "Commune"
+ 
+ #. module: hr
+ #: model_terms:hr.job,website_description:hr.job_ceo
+diff --git a/addons/maintenance/i18n/fr.po b/addons/maintenance/i18n/fr.po
+index f37e15b0b047..9ad08a964534 100644
+--- a/addons/maintenance/i18n/fr.po
++++ b/addons/maintenance/i18n/fr.po
+@@ -304,7 +304,7 @@ msgstr "Commentaires"
+ #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__company_id
+ #: model:ir.model.fields,field_description:maintenance.field_maintenance_team__company_id
+ msgid "Company"
+-msgstr "Société"
++msgstr "Commune"
+ 
+ #. module: maintenance
+ #: model:maintenance.equipment.category,name:maintenance.equipment_computer
+diff --git a/odoo/addons/base/i18n/fr.po b/odoo/addons/base/i18n/fr.po
+index 37a7032fb9ca..a39d09f642fa 100644
+--- a/odoo/addons/base/i18n/fr.po
++++ b/odoo/addons/base/i18n/fr.po
+@@ -10836,7 +10836,7 @@ msgstr ""
+ #. module: base
+ #: model_terms:ir.ui.view,arch_db:base.view_users_form
+ msgid "Allowed Companies"
+-msgstr "Sociétés autorisées"
++msgstr "Communes autorisées"
+ 
+ #. module: base
+ #: model:ir.module.module,summary:base.module_stock_barcode_quality_control
+@@ -12724,7 +12724,7 @@ msgstr "Comores"
+ #: model_terms:ir.ui.view,arch_db:base.view_company_tree
+ #: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
+ msgid "Companies"
+-msgstr "Sociétés"
++msgstr "Communes"
+ 
+ #. module: base
+ #: model_terms:ir.ui.view,arch_db:base.view_users_form
+@@ -12753,7 +12753,7 @@ msgstr "Nombre de sociétés"
+ #: model_terms:ir.ui.view,arch_db:base.view_users_search
+ #, python-format
+ msgid "Company"
+-msgstr "Société"
++msgstr "Commune"
+ 
+ #. module: base
+ #: model_terms:ir.ui.view,arch_db:base.onboarding_company_step
+@@ -14015,7 +14015,7 @@ msgstr "Fusionner d'autres contacts"
+ #. module: base
+ #: model_terms:ir.ui.view,arch_db:base.view_users_form
+ msgid "Default Company"
+-msgstr "Société par défaut"
++msgstr "Commune par défaut"
+ 
+ #. module: base
+ #: model:ir.model.fields,field_description:base.field_ir_filters__is_default
+@@ -20434,7 +20434,7 @@ msgstr "Mme"
+ #: model_terms:ir.ui.view,arch_db:base.view_users_form
+ #: model:res.groups,name:base.group_multi_company
+ msgid "Multi Companies"
+-msgstr "Multi Sociétés"
++msgstr "Multi Communes"
+ 
+ #. module: base
+ #: model:res.groups,name:base.group_multi_currency
+@@ -26882,12 +26882,12 @@ msgstr "État"
+ #. module: base
+ #: model:ir.model.fields,field_description:base.field_res_country_state__code
+ msgid "State Code"
+-msgstr "Code de l'État"
++msgstr "Code"
+ 
+ #. module: base
+ #: model:ir.model.fields,field_description:base.field_res_country_state__name
+ msgid "State Name"
+-msgstr "Nom de l'État"
++msgstr "Wilaya"
+ 
+ #. module: base
+ #: model:res.country,name:base.ps
+@@ -26902,7 +26902,7 @@ msgstr "Status des étapes d'intégration de la société"
+ #. module: base
+ #: model:ir.model.fields,field_description:base.field_res_country__state_ids
+ msgid "States"
+-msgstr "États"
++msgstr "Wilaya"
+ 
+ #. module: base
+ #: model:ir.model.fields,field_description:base.field_base_language_install__state
+@@ -29415,7 +29415,7 @@ msgstr "Utilisateurs"
+ #. module: base
+ #: model:ir.ui.menu,name:base.menu_users
+ msgid "Users & Companies"
+-msgstr "Utilisateurs et sociétés"
++msgstr "Utilisateurs et communes"
+ 
+ #. module: base
+ #: model:ir.model,name:base.model_res_users_log
+-- 
+2.43.2
+
