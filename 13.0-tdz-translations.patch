@@ -1,18 +1,18 @@
-From c20ee6e3fa79708795e9c669fc6261d9f02b2a24 Mon Sep 17 00:00:00 2001
+From b4086788b9b6e11f46d98c3e2a378d93121012bc Mon Sep 17 00:00:00 2001
 From: Achraf Bannour <bannour.achraf@gmail.com>
 Date: Thu, 4 Jan 2024 14:49:11 +0100
 Subject: [PATCH] [I18N] Update translations for TBGE DZ
 
 ---
- addons/base_setup/i18n/fr.po  | 18 +++++++++---------
+ addons/base_setup/i18n/fr.po  | 24 ++++++++++++------------
  addons/fleet/i18n/fr.po       |  6 +++---
  addons/hr/i18n/fr.po          |  2 +-
  addons/maintenance/i18n/fr.po |  2 +-
  odoo/addons/base/i18n/fr.po   | 18 +++++++++---------
- 5 files changed, 23 insertions(+), 23 deletions(-)
+ 5 files changed, 26 insertions(+), 26 deletions(-)
 
 diff --git a/addons/base_setup/i18n/fr.po b/addons/base_setup/i18n/fr.po
-index 49ba03ad3856..06b5cb9d0902 100644
+index 49ba03ad3856..bc63f2fc3f47 100644
 --- a/addons/base_setup/i18n/fr.po
 +++ b/addons/base_setup/i18n/fr.po
 @@ -95,7 +95,7 @@ msgid ""
@@ -42,7 +42,19 @@ index 49ba03ad3856..06b5cb9d0902 100644
  
  #. module: base_setup
  #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-@@ -251,12 +251,12 @@ msgstr "Société"
+@@ -241,22 +241,22 @@ msgstr "Pads collaboratifs"
+ #. module: base_setup
+ #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
+ msgid "Companies"
+-msgstr "Sociétés"
++msgstr "Communes"
+ 
+ #. module: base_setup
+ #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__company_id
+ msgid "Company"
+-msgstr "Société"
++msgstr "Commune"
+ 
  #. module: base_setup
  #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__company_informations
  msgid "Company Informations"
@@ -90,6 +102,15 @@ index 49ba03ad3856..06b5cb9d0902 100644
  
  #. module: base_setup
  #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__group_multi_currency
+@@ -505,7 +505,7 @@ msgstr "Nombre d'utilisateurs actifs"
+ #. module: base_setup
+ #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__company_count
+ msgid "Number of Companies"
+-msgstr "Nombe de sociétés"
++msgstr "Nombe de communes"
+ 
+ #. module: base_setup
+ #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__language_count
 diff --git a/addons/fleet/i18n/fr.po b/addons/fleet/i18n/fr.po
 index ec446cc0e27a..06360e06bfec 100644
 --- a/addons/fleet/i18n/fr.po
