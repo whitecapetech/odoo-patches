@@ -1,4 +1,4 @@
-From b4086788b9b6e11f46d98c3e2a378d93121012bc Mon Sep 17 00:00:00 2001
+From d9d8b5daf447f5539745aeba7023c947a54fc325 Mon Sep 17 00:00:00 2001
 From: Achraf Bannour <bannour.achraf@gmail.com>
 Date: Thu, 4 Jan 2024 14:49:11 +0100
 Subject: [PATCH] [I18N] Update translations for TBGE DZ
@@ -8,8 +8,9 @@ Subject: [PATCH] [I18N] Update translations for TBGE DZ
  addons/fleet/i18n/fr.po       |  6 +++---
  addons/hr/i18n/fr.po          |  2 +-
  addons/maintenance/i18n/fr.po |  2 +-
+ addons/web/i18n/ar.po         |  2 +-
  odoo/addons/base/i18n/fr.po   | 18 +++++++++---------
- 5 files changed, 26 insertions(+), 26 deletions(-)
+ 6 files changed, 27 insertions(+), 27 deletions(-)
 
 diff --git a/addons/base_setup/i18n/fr.po b/addons/base_setup/i18n/fr.po
 index 49ba03ad3856..bc63f2fc3f47 100644
@@ -168,6 +169,19 @@ index f37e15b0b047..9ad08a964534 100644
  
  #. module: maintenance
  #: model:maintenance.equipment.category,name:maintenance.equipment_computer
+diff --git a/addons/web/i18n/ar.po b/addons/web/i18n/ar.po
+index a06cff91efb2..2942c9d10571 100644
+--- a/addons/web/i18n/ar.po
++++ b/addons/web/i18n/ar.po
+@@ -3519,7 +3519,7 @@ msgstr "حدث شيء فظيع"
+ #: code:addons/web/static/src/js/services/crash_manager.js:0
+ #, python-format
+ msgid "Something went wrong !"
+-msgstr ""
++msgstr "! حدث خطأ ما"
+ 
+ #. module: web
+ #. openerp-web
 diff --git a/odoo/addons/base/i18n/fr.po b/odoo/addons/base/i18n/fr.po
 index 37a7032fb9ca..a39d09f642fa 100644
 --- a/odoo/addons/base/i18n/fr.po
@@ -251,5 +265,5 @@ index 37a7032fb9ca..a39d09f642fa 100644
  #. module: base
  #: model:ir.model,name:base.model_res_users_log
 -- 
-2.43.2
+2.45.1
 
