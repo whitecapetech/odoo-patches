@@ -1,12 +1,58 @@
-From 83178c652b19503bfa7a621bf744aab65616133c Mon Sep 17 00:00:00 2001
-From: Achraf Bannour <bannour.achraf@gmail.com>
-Date: Tue, 13 May 2025 18:44:24 +0100
+From 298c6803950fd7703e4017d5cc9d0b9dd9250109 Mon Sep 17 00:00:00 2001
+From: Achraf Bannour <achraf.bannour@whitecapetech.com>
+Date: Wed, 4 Jun 2025 14:56:14 +0100
 Subject: [PATCH] [I18N] Update translations for TBGE Sousse
 
 ---
+ addons/fleet/i18n/ar.po | 2 +-
+ addons/fleet/i18n/fr.po | 6 +++---
  addons/stock/i18n/fr.po | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+ 3 files changed, 5 insertions(+), 5 deletions(-)
 
+diff --git a/addons/fleet/i18n/ar.po b/addons/fleet/i18n/ar.po
+index 11084b882a44..b7106e904fa1 100644
+--- a/addons/fleet/i18n/ar.po
++++ b/addons/fleet/i18n/ar.po
+@@ -2327,7 +2327,7 @@ msgstr "تكاليف المركبات"
+ #: model:ir.ui.menu,name:fleet.fleet_vehicle_log_fuel_menu
+ #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_search
+ msgid "Vehicles Fuel Logs"
+-msgstr "سجلات وقود المركبات"
++msgstr "سجلات الوقود الداخلية"
+ 
+ #. module: fleet
+ #: model:ir.actions.act_window,name:fleet.fleet_vehicle_model_action
+diff --git a/addons/fleet/i18n/fr.po b/addons/fleet/i18n/fr.po
+index ec446cc0e27a..07aad02a1062 100644
+--- a/addons/fleet/i18n/fr.po
++++ b/addons/fleet/i18n/fr.po
+@@ -1940,7 +1940,7 @@ msgstr "Types d'intervention"
+ #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_cost__cost_type__services
+ #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
+ msgid "Services"
+-msgstr "Services"
++msgstr "Entretiens"
+ 
+ #. module: fleet
+ #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_graph
+@@ -2338,7 +2338,7 @@ msgstr "Coûts des véhicules"
+ #: model:ir.ui.menu,name:fleet.fleet_vehicle_log_fuel_menu
+ #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_search
+ msgid "Vehicles Fuel Logs"
+-msgstr "Suivi du niveau d'essence"
++msgstr "Ravitaillement interne"
+ 
+ #. module: fleet
+ #: model:ir.actions.act_window,name:fleet.fleet_vehicle_model_action
+@@ -2356,7 +2356,7 @@ msgstr "Relevés kilomètrique des véhicules"
+ #: model:ir.actions.act_window,name:fleet.fleet_vehicle_log_services_action
+ #: model:ir.ui.menu,name:fleet.fleet_vehicle_log_services_menu
+ msgid "Vehicles Services Logs"
+-msgstr "Suivi des interventions sur les véhicules"
++msgstr "Suivi des interventions"
+ 
+ #. module: fleet
+ #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_cost_indicative_view_graph
 diff --git a/addons/stock/i18n/fr.po b/addons/stock/i18n/fr.po
 index 74aea8749e1a..50e0e2c6e597 100644
 --- a/addons/stock/i18n/fr.po
