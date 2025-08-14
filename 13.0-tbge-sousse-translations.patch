@@ -1,18 +1,27 @@
-From 5925d495923e85d79d95155359f1b387b531e709 Mon Sep 17 00:00:00 2001
+From 4dbabf860ede7e5b1917940e93a2cd6607d09d47 Mon Sep 17 00:00:00 2001
 From: Achraf Bannour <achraf.bannour@whitecapetech.com>
 Date: Wed, 4 Jun 2025 14:56:14 +0100
 Subject: [PATCH] [I18N] Update translations for TBGE Sousse
 
 ---
- addons/fleet/i18n/ar.po | 4 ++--
- addons/fleet/i18n/fr.po | 6 +++---
+ addons/fleet/i18n/ar.po | 6 +++---
+ addons/fleet/i18n/fr.po | 8 ++++----
  addons/stock/i18n/fr.po | 2 +-
- 3 files changed, 6 insertions(+), 6 deletions(-)
+ 3 files changed, 8 insertions(+), 8 deletions(-)
 
 diff --git a/addons/fleet/i18n/ar.po b/addons/fleet/i18n/ar.po
-index 11084b882a44..fd51ae945adb 100644
+index 11084b882a44..5980ee86488d 100644
 --- a/addons/fleet/i18n/ar.po
 +++ b/addons/fleet/i18n/ar.po
+@@ -393,7 +393,7 @@ msgstr "ضبط الإعدادات"
+ #. module: fleet
+ #: model:ir.ui.menu,name:fleet.fleet_configuration
+ msgid "Configuration"
+-msgstr "إعداد"
++msgstr "إعدادات مجال أسطول المركبات"
+ 
+ #. module: fleet
+ #: model:ir.model,name:fleet.model_res_partner
 @@ -2327,7 +2327,7 @@ msgstr "تكاليف المركبات"
  #: model:ir.ui.menu,name:fleet.fleet_vehicle_log_fuel_menu
  #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_search
@@ -32,9 +41,18 @@ index 11084b882a44..fd51ae945adb 100644
  #. module: fleet
  #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_cost_indicative_view_graph
 diff --git a/addons/fleet/i18n/fr.po b/addons/fleet/i18n/fr.po
-index ec446cc0e27a..88abdc72adc2 100644
+index ec446cc0e27a..9d4c6dc3f1db 100644
 --- a/addons/fleet/i18n/fr.po
 +++ b/addons/fleet/i18n/fr.po
+@@ -396,7 +396,7 @@ msgstr "Paramètres de config"
+ #. module: fleet
+ #: model:ir.ui.menu,name:fleet.fleet_configuration
+ msgid "Configuration"
+-msgstr "Configuration"
++msgstr "Paramètres de domaine parc automobile"
+ 
+ #. module: fleet
+ #: model:ir.model,name:fleet.model_res_partner
 @@ -1940,7 +1940,7 @@ msgstr "Types d'intervention"
  #: model:ir.model.fields.selection,name:fleet.selection__fleet_vehicle_cost__cost_type__services
  #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
@@ -76,5 +94,5 @@ index 74aea8749e1a..50e0e2c6e597 100644
  #. module: stock
  #: model_terms:ir.actions.act_window,help:stock.action_picking_form
 -- 
-2.49.0
+2.50.1
 
