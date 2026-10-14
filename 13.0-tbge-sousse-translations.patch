@@ -1,13 +1,14 @@
-From c07388e06015710bd47099a7da66ec6c2e6e8629 Mon Sep 17 00:00:00 2001
-From: Achraf Bannour <achraf.bannour@whitecapetech.com>
-Date: Wed, 4 Jun 2025 14:56:14 +0100
+From 339f0d566718659badf7e2f9c50e4aeb94f47a29 Mon Sep 17 00:00:00 2001
+From: Achraf Bannour <bannour.achraf@gmail.com>
+Date: Wed, 14 Oct 2026 19:42:20 +0100
 Subject: [PATCH] [I18N] Update translations for TBGE Sousse
 
 ---
  addons/fleet/i18n/ar.po | 6 +++---
  addons/fleet/i18n/fr.po | 8 ++++----
- addons/stock/i18n/fr.po | 2 +-
- 3 files changed, 8 insertions(+), 8 deletions(-)
+ addons/stock/i18n/ar.po | 2 +-
+ addons/stock/i18n/fr.po | 4 ++--
+ 4 files changed, 10 insertions(+), 10 deletions(-)
 
 diff --git a/addons/fleet/i18n/ar.po b/addons/fleet/i18n/ar.po
 index 11084b882a44..22b9a315ea16 100644
@@ -80,10 +81,32 @@ index ec446cc0e27a..18798ddddefb 100644
  
  #. module: fleet
  #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_cost_indicative_view_graph
+diff --git a/addons/stock/i18n/ar.po b/addons/stock/i18n/ar.po
+index 45d4cebdb1c2..24e16a9b47a0 100644
+--- a/addons/stock/i18n/ar.po
++++ b/addons/stock/i18n/ar.po
+@@ -2859,7 +2859,7 @@ msgstr "المخزونات"
+ #: model_terms:ir.ui.view,arch_db:stock.view_partner_stock_form
+ #: model_terms:ir.ui.view,arch_db:stock.view_stock_quant_pivot
+ msgid "Inventory"
+-msgstr "الجرد"
++msgstr "المخزون"
+ 
+ #. module: stock
+ #: model_terms:ir.ui.view,arch_db:stock.view_inventory_form
 diff --git a/addons/stock/i18n/fr.po b/addons/stock/i18n/fr.po
-index 74aea8749e1a..50e0e2c6e597 100644
+index 74aea8749e1a..313f764ec1a4 100644
 --- a/addons/stock/i18n/fr.po
 +++ b/addons/stock/i18n/fr.po
+@@ -2954,7 +2954,7 @@ msgstr "Inventaires"
+ #: model_terms:ir.ui.view,arch_db:stock.view_partner_stock_form
+ #: model_terms:ir.ui.view,arch_db:stock.view_stock_quant_pivot
+ msgid "Inventory"
+-msgstr "Inventaire"
++msgstr "Stock"
+ 
+ #. module: stock
+ #: model_terms:ir.ui.view,arch_db:stock.view_inventory_form
 @@ -6780,7 +6780,7 @@ msgstr "Référence de transfert"
  #: model:ir.ui.menu,name:stock.all_picking
  #: model_terms:ir.ui.view,arch_db:stock.procurement_group_form_view
@@ -94,5 +117,5 @@ index 74aea8749e1a..50e0e2c6e597 100644
  #. module: stock
  #: model_terms:ir.actions.act_window,help:stock.action_picking_form
 -- 
-2.52.0
+2.55.0
 
